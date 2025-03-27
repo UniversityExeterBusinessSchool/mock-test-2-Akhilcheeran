@@ -89,6 +89,13 @@ quantities = [5, 12, 9, 15, 7, 10]
 
 # Use a list comprehension to create a new list that doubles each quantity that is 10 or more.
 # Print the original and the new lists.
+quantities = [5, 12, 9, 15, 7, 10]
+
+# Double quantities of 10 or more using list comprehension
+doubled_quantities = [q * 2 for q in quantities if q >= 10]
+print("Original quantities:", quantities)
+print("Doubled quantities:", doubled_quantities)
+
 
 #######################################################################################################################################################
 
