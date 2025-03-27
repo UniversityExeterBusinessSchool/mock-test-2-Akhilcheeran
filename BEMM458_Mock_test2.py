@@ -95,6 +95,11 @@ quantities = [5, 12, 9, 15, 7, 10]
 # Question 9 - Dictionary Manipulation
 # Using the dictionary below, filter out the products with a rating of less than 4 and create a new dictionary with the remaining products.
 ratings = {'product_A': 4, 'product_B': 5, 'product_C': 3, 'product_D': 2, 'product_E': 5}
+ratings = {'product_A': 4, 'product_B': 5, 'product_C': 3, 'product_D': 2, 'product_E': 5}
+
+# Filter products with a rating of 4 or more
+filtered_ratings = {product: rating for product, rating in ratings.items() if rating >= 4}
+print("Filtered ratings:", filtered_ratings)
 
 #######################################################################################################################################################
 
